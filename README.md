@@ -12,7 +12,7 @@ NodeJS Installed on the system
 
 Installation:
 
-1)go to project directory in command prompt, and run the following command:
+1) go to project directory in command prompt, and run the following command: 
   npm run dev
 
 2) go to localhost:5000/bagItems 
