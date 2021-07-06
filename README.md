@@ -11,6 +11,7 @@ Requirements:
 NodeJS Installed on the system
 
 Installation:
+
 1)go to project directory in command prompt, and run the following command:
   npm run dev
 
