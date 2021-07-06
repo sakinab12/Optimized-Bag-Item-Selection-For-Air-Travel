@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<body>
+    <table id="bagItemsTable" class="table table-striped w-100">
+        <tr>
+            <th>Item Name</th>
+            <th>Worth</th>
+            <th>Weight</th>
+        </tr>
+
+        <% result.set.forEach(item =>{%>
+            <%- include('./item_knapsack.ejs', {item: item}) %>
+        <%})%>
+
+    </table>
+</body>
